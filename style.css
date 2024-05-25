@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(87, 143, 246);
+}
+.container{
+
+   
+   height: 800px;
+   width: 800px;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+.container h1{
+   
+    font-size: 3.3rem;
+    font-family: "Creepster", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+.timer{
+margin: 10px;
+}
+.timer p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: wheat;
+}
+.timer h3{
+    font-size: 3.2rem;
+    font-family: "Bebas Neue", sans-serif;
+font-weight: 900;
+font-style: normal;
+
+
+}
+.content{
+    position: relative;
+    border: 2px solid black;
+    height: 300px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content img{
+    position: absolute; 
+    height: 300px;
+    width:400px;
+}
+.content span{
+    position: absolute;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.each-time select{
+height: 30px;
+width:100px;
+background-color: white
+
+}
+.each-time{
+    top: 5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.each-time div{
+   margin-top: 5px;
+    font-weight: bolder;
+}
+.btn button{
+    left: 40%;
+    position: absolute;
+   bottom: 0%;
+   height: 60px;
+   width: 300px;
+  background-color: black;
+  color: white;
+  font-size: 1.9rem;
+  font-size: 3.2rem;
+    font-family: "Bebas Neue", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.btn button:active{
+    background-color: red;
+}
+.content .mood{
+    color: rgb(232, 211, 211);
+}
+#party{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    font-size: 2.2rem;
+   top: 10%;
+   color: rgb(32, 32, 81);
+   display: none;
+
+}
